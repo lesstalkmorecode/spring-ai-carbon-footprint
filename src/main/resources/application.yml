@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: spring-ai-carbon-footprint
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      # model: gpt-4
+      embedding:
+        options:
+          model: text-embedding-3-small
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+springaiapp:
+  apiNinjasKey: ${API_NINJAS_KEY}
+  vectorStorePath: /tmp/vectorstore.json
+  documentsToLoad:
+    - classpath:/files/geocoding-data.csv
+  # vectorstore:
+  # milvus:
+  # collectionName: "telemetry_collection"
