@@ -15,7 +15,7 @@ for fuel efficiency, distance traveled, and standard emission factors for variou
 The formula used to calculate the carbon footprint is:
 
 ```text
-Carbon Footprint (kg CO₂) = Fuel Consumption (liters) × Distance (km) × Emission Factor (kg CO₂/liter))) + Load Factor + Braking Event Impact + Tire Impact
+Carbon Footprint (kg CO₂) = Fuel Consumption (liters) × Emission Factor (kg CO₂/liter)
 ```
 
 #### Where: ####
