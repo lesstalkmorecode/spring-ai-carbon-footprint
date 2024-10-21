@@ -28,11 +28,11 @@ Carbon Footprint (kg CO₂) = Fuel Consumption (liters) × Emission Factor (kg C
 
 1. **Fuel Consumption:**
 
-   ```Fuel Consumption (liters) = Distance (km)×Fuel Efficiency (liters/km)```
+   ```Fuel Consumption (liters) = Distance (km) × Fuel Efficiency (liters/km)```
 
 2. **Carbon Emissions:**
 
-   ```Carbon Emissions (kg CO₂)=Fuel Consumption (liters)×Emission Factor (kg CO₂/liter)```
+   ```Carbon Emissions (kg CO₂) = Fuel Consumption (liters) × Emission Factor (kg CO₂/liter)```
 
 #### Features: ####
 
